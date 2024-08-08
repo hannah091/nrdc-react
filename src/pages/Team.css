@@ -1,0 +1,25 @@
+.dentist-container{
+  display: flex;
+  
+  padding: 40px 40px 40px 0px;
+  border-bottom: 1px solid grey;
+}
+
+.box {
+  padding: 0px 40px 40px 0px;
+}
+
+.box img{
+  width: 450px;
+  height: 220px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+/*wrap text?*/
+@media only screen and (max-width: 960px) {
+  .dentist-container .box{
+    
+    float: left;
+  }
+}

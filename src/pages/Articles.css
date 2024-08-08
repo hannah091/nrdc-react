@@ -1,0 +1,74 @@
+/*Resources*/
+.breadcrumb > li {
+  display: inline;
+ 
+}
+
+.breadcrumb li+li::before {
+  content: ">";
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color:black;
+}
+
+.breadcrumb a:hover {
+   color: grey;
+}
+
+.header-image-container{
+	border-radius: 16px;
+  height: 55vh;
+  background-image: url('https://brightondentalsuite.com.au/wp-content/uploads/2022/11/kid-at-the-dentist.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+h2{
+  font-size: 2rem;;
+}
+
+.header-textbox {
+  max-width: 30%;
+  max-height: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 14px;
+  margin: 4rem 2rem 2rem;
+  position: relative;
+  float:left;
+  z-index: 998;
+  width: 70rem;
+  background-color: white;
+}
+
+.header-text{
+  padding: 2rem;
+}
+
+section{
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 4rem ;
+}
+
+a{
+  display: inline;
+}
+
+
+.ada-container{
+  display: flex;
+  align-items: center;
+}
+
+.ada-logo{
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+i{
+  color: grey;
+  text-decoration-color: grey;
+}
