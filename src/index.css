@@ -111,7 +111,7 @@ align-items:center;
 
 
 /*screen size lower than 1200px desktop nav disappears*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   
   #desktop-nav{
     display: none;
@@ -392,12 +392,41 @@ align-items:center;
   text-decoration: underline;
 }
 
+#footer-font{
+  font-size: 14px;
+  cursor: context-menu;
+}
+
+.copyright_box {
+  background-color: #292F36;
+  font-size: .75rem;
+  display: flex;
+  align-items: center;
+  padding: 5px 2em;
+  
+}
+
+.copyright {
+  flex-grow: 1;
+  color: white;
+}
+
+.contact-info-details span{
+  margin-right: 8px;
+}
+
 .contact-info-details, .contact-info-details a{
   display: flex;
   margin-bottom: 0.6rem;
 }
 
-/*contact*/
+
+/*contact padding*/
+
+.page-margin{
+margin: 3rem 4rem;
+}
+
 .contact-container{
   display: grid;
   grid-template-columns:1fr 1fr 2fr;

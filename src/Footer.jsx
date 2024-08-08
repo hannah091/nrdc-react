@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer-box">
             <h2>Quick Links</h2>
             <ul>
-              <li><CustomLink to="/Team">Team</CustomLink></li>
+              <li><CustomLink to="/Team"> Our Team</CustomLink></li>
               <li><CustomLink to="/NewPatientForm">New Patient Form</CustomLink></li>
               <li><CustomLink to="/PatientFeedback">Patient Feedback</CustomLink></li>
               <li><CustomLink to="/ChildDentalBenefitScheme">Child Dental Benefit Scheme</CustomLink></li>
@@ -33,25 +33,51 @@ function Footer() {
 
           <div className="footer-box">
             <h2>Opening Hours</h2>
-            <ul>
-              <p>Mon 9am - 6pm</p>
-              <li>Tue 9am - 5pm</li>
-              <li>Wed 9am - 6pm</li>
-              <li>Thu 9am - 5pm</li>
-              <li>Fri 9am - 6pm</li>
-              <li>Saturday - By Appointments Only</li>
-              <li>Sunday - Closed</li>
-            </ul>
+            <div className="inner-hrs-box">
+  <div className="days" id="footer-font">
+    <p>Monday</p>
+    <p>Tuesday</p>
+    <p>Wednesday</p>
+    <p>Thursday</p>
+    <p>Friday</p>
+    <p>Saturday</p>
+    <p>Sunday</p>
+  </div>
+
+  <div className="time" id="footer-font">
+    <p>9am - 6pm</p>
+    <p>9am - 5pm</p>
+    <p>9am - 6pm</p>
+    <p>Closed</p>
+    <p>9am - 6pm</p>
+    <p>By Appointment Only</p>
+    <p>Closed</p>
+  </div>
+</div>
           </div>
 
           <div className="footer-box">
             <h2>Contact Us</h2>
-            <ul className="contact">
-              <li> <span className="material-symbols-outlined">call</span>(03) 9578 5552</li>
-              <li> <span className="material-symbols-outlined">print</span>(03) 9578 5520</li>
-              <li> <span className="material-symbols-outlined">mail</span>info@northdental.com.au</li>
-              <li> <span className="material-symbols-outlined">location_on</span>687 North Road, <br />Carnegie VIC 3163</li>
-            </ul>
+            <div className="contact-info-details" id="footer-font" >
+            <span className="material-symbols-outlined">call</span><div>(03) 9578 5552</div>
+            </div>
+
+            <div className="contact-info-details" id="footer-font">
+            <span className="material-symbols-outlined">print</span><div>(03) 9578 5520</div>
+            </div>
+
+            <div className="contact-info-details" id="footer-font">
+            <span className="material-symbols-outlined">mail</span><div>info@northdental.com.au</div>
+            </div>
+
+
+            <div className="contact-info-details" id="footer-font">
+            <span className="material-symbols-outlined">location_on</span>
+            <a href="https://www.google.com/maps/place/North+Road+Dental+Clinic/@-37.9053465,145.0516743,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x6ad66bd6b7de0605:0x5b7587b8efa5d9e8!2s687+North+Rd,+Carnegie+VIC+3163!2m2!1d145.0541897!2d-37.9053461!3m5!1s0x6ad66bd6b7de0605:0x5b7587b8efa5d9e8!8m2!3d-37.9053508!4d145.0542546!16s%2Fg%2F11b6jhcc9w?entry=ttu" target="_blank" rel="noreferrer">
+            <div>687 North Road, <br />Carnegie VIC 3163</div>
+            </a>
+            </div>
+
           </div>
 
           <div className="footer-box">
@@ -67,6 +93,17 @@ function Footer() {
           </div>
         </section>
       </footer>
+
+      <div className="copyright_box">
+     <span className="copyright">© 2024 North Road Dental Clinic. All Rights Reserved</span>
+    
+     <a href="https://www.facebook.com/NorthRdDentalClinic/" class="facebook"> 
+     <span className="Social"><svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2104 25.3697V15.1827H7.89062V10.938H11.2104V7.54196C11.2104 4.03291 13.3815 2.30664 16.4408 2.30664C17.9062 2.30664 19.1665 2.4185 19.534 2.46808V6.13511H17.4114C15.7475 6.13511 15.3598 6.94578 15.3598 8.13237V10.938H19.508L18.6784 15.1816H15.3598L15.4263 25.3697" fill="white"/>
+       </svg>
+       </span>
+     </a>
+   </div>
     </>
   );
 }

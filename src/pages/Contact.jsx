@@ -5,7 +5,7 @@ function Contact(){
   
   return (
     <>
-    
+    <div className="page-margin">
       <section class="contact">
         <div className="heading">
           <h1 className='text-5xl font-bold mb-8'>Contact Us</h1>
@@ -99,7 +99,7 @@ function Contact(){
     </div>
   
 
-
+    </div>
     </>
   )
 }

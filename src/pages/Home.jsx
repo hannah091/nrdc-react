@@ -7,14 +7,14 @@ function Home(){
   
   return (
     <>
-   
+   <div className="page-margin">
     <section className="hero" id="hero">
       <div className="hero_container">
 
         <div className="hero_content">
               <h1>Keeping Your Family’s Smiles Healthy</h1>
               <p> Caring and comprehensive dental care for the entire family in Carngie.</p>
-              <p> Book online today.</p>
+              <p> Book an appointment today.</p>
               <br/>
 
               <div className='btn-container'>
@@ -165,7 +165,7 @@ function Home(){
           
     
      
-
+        </div>
     </>
   )
 }

@@ -113,7 +113,7 @@ nav a{
 #desktop-nav a:hover{
   background-color: var(--grey);
   padding: 12px 8px;
-  border-radius: 4px;
+  border-radius: 8px;
   gap:1rem;
 }
 
@@ -135,11 +135,13 @@ nav ul li .active{
   font-size: 16px;
   font-weight: 500;
   border: none;
+  border-radius: 8px;
   outline: none;
   color: #212121;
   padding: 14px 4px;
   background-color: inherit;
   font-family: inherit;
+  display: flex;
   
 }
 
@@ -171,7 +173,7 @@ nav ul li .active{
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: var(--grey);
+  background-color: varhe(--grey);
   color: black;
   text-underline-offset: 1rem;
   padding: 12px 16px;
@@ -261,7 +263,7 @@ nav ul li .active{
 .sidebar li:hover{
   width: 100%;
   background-color: rgb(237, 237, 237);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .close-box{

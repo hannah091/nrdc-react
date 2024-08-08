@@ -7,9 +7,9 @@ function Offers(){
   
   return (
     <>
-
+<div className="page-margin">
    <div className="heading-noimg">
-          <h1>Offers</h1>
+          <h1 className='text-5xl font-bold mb-8'>Offers</h1>
           <p>
             Enjoy all the latest offers available at North Road Dental Clinic right now.
           </p>
@@ -72,6 +72,7 @@ function Offers(){
       </p>
     </Card>
   </div>
+</div>
     </>
   )
 }

@@ -60,15 +60,51 @@ function Navbar() {
               <CustomLink to="/Home">Home</CustomLink>
             </li>
             <li>
-              <CustomLink to="/Team">Team</CustomLink>
-            </li>
-            <li>
-              <CustomLink to="/Services">Services</CustomLink>
+              <CustomLink to="/Team">Our Team</CustomLink>
             </li>
 
             <li className="navbar_item">
               <div className="dropdown">
-                <button className="dropbtn">Resources</button>
+                <button className="dropbtn">Services<span class="material-symbols-outlined">
+stat_minus_1
+</span></button>
+                <div className="dropdown-content">
+                  <li>
+                    <CustomLink to="/Clean">Scale & Clean</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Mouthguard">Mouthguard & Splint</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Whitening">Teeth Whitening</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Filling">Filling</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Extraction">Extraction</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Root Canal">Root Canal</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Crown">Crown, Veneer & Denture</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Mouthguard">Mouthguard & Splint</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Implant">Implant</CustomLink>
+                  </li>
+                </div>
+              </div>
+            </li>
+
+            <li className="navbar_item">
+              <div className="dropdown">
+                <button className="dropbtn">Resources<span class="material-symbols-outlined">
+stat_minus_1
+</span></button>
                 <div className="dropdown-content">
                   <li>
                     <CustomLink to="/Cdbs">New Patient Form</CustomLink>
@@ -144,7 +180,7 @@ function Navbar() {
                 <CustomLink to="/Offers">Offers</CustomLink>
               </li>
               <li>
-                <CustomLink to="/Contact">Contact</CustomLink>
+                <CustomLink to="/Contact">Contact Us</CustomLink>
               </li>
             </ul>
           )}
