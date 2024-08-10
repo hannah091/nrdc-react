@@ -1,11 +1,11 @@
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import Services from './pages/Services'
 import Cdbs from './pages/Cdbs'
 import Offers from './pages/Offers'
 import Contact from './pages/Contact'
-import Footer from './Footer.jsx'
 import { Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -23,8 +23,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
-      
-      <Footer />
+      <Footer/>
     </>
   )
 }

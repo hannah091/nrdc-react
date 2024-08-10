@@ -1,5 +1,4 @@
 import React from 'react'
-import './mediaquires.css'
 import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
 
 
@@ -7,13 +6,14 @@ function Home(){
   
   return (
     <>
-   <div className="page-margin">
+<div className="page-margin">
+    
     <section className="hero" id="hero">
       <div className="hero_container">
 
         <div className="hero_content">
-              <h1>Keeping Your Family’s Smiles Healthy</h1>
-              <p> Caring and comprehensive dental care for the entire family in Carngie.</p>
+              <h1><b>Keeping Your Family’s Smiles Bright & Healthy</b></h1>
+              <p> Caring and comprehensive dental care for the entire family in Carngie, Ormond, McKinnon, Bentleigh East and surrounding suburbs.</p>
               <p> Book an appointment today.</p>
               <br/>
 
@@ -29,9 +29,9 @@ function Home(){
         </div>        
       
 
-  <div className="parent-container">
-    <img className="fit-image" src="https://t4.ftcdn.net/jpg/00/01/27/75/240_F_1277521_jha6pDD6y68s6zrNtGmJKqrEl8NsPQ.jpg" alt="Family smiling"/>
-  </div>
+        <div className="heroimage-container">
+          <img className="hero-image" src="https://t4.ftcdn.net/jpg/00/01/27/75/240_F_1277521_jha6pDD6y68s6zrNtGmJKqrEl8NsPQ.jpg" alt="Family smiling"/>
+        </div>
 
       
 
@@ -161,11 +161,9 @@ function Home(){
           <div className="about-img">
           <img src="./assets/CDBS.png" alt="Child Dental Benefit Scheme for eligible children"/>
           </div>
-        </section>
-          
-    
-     
-        </div>
+      </section>
+    </div>
+
     </>
   )
 }
@@ -180,7 +178,7 @@ function CustomLink({ to, children, ...props }) {
         {children}
       </Link>
     </li>
-  );
+  )
 }
 
 export default Home

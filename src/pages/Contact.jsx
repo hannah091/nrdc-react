@@ -61,7 +61,7 @@ function Contact(){
     <p>9am - 6pm</p>
     <p>9am - 5pm</p>
     <p>9am - 6pm</p>
-    <p>Closed</p>
+    <p>9am - 5pm</p>
     <p>9am - 6pm</p>
     <p>By Appointment Only</p>
     <p>Closed</p>
