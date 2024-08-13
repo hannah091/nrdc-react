@@ -111,10 +111,14 @@ nav a{
 }
 
 #desktop-nav a:hover{
-  background-color: var(--grey);
+  /*background-color: var(--grey);
   padding: 12px 8px;
   border-radius: 8px;
   gap:1rem;
+  */
+  text-underline-offset: 1rem;
+  text-decoration: underline;
+
 }
 
 
@@ -168,7 +172,8 @@ nav ul li .active{
 /*  dropdown button hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
   cursor: pointer;
-  background-color: var(--grey);
+  text-underline-offset: 1rem;
+  text-decoration: underline;
 }
 
 /* Add a grey background to dropdown links on hover */
