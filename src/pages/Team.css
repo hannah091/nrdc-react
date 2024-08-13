@@ -1,3 +1,19 @@
+
+.dentist-heading{
+  padding: 2rem 0rem;
+}
+
+.dentist-name-heading{
+  font-size: 24px;
+font-weight: 700;
+}
+
+.Dentist-subheading{
+font-size: 16px;
+font-weight: 700;
+color: rgb(128, 127, 127);
+}
+
 .dentist-container{
   display: flex;
   padding: 40px 40px 40px 0px;
@@ -11,7 +27,6 @@
   margin: 0px 40px 40px 0px;
   overflow: hidden;
   flex-shrink: 0;
-
 }
 
 .dentist-container .dentist-imgbox img{
