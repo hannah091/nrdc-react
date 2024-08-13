@@ -1,6 +1,6 @@
 import React from 'react'
 import './Offers.css'
-import { Card } from "flowbite-react";
+
 
 
 function Offers(){
