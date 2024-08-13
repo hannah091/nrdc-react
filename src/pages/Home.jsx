@@ -134,14 +134,14 @@ function Home(){
       <div className="content">
         <h2 className='section-heading' id="provider-heading"><b>Preferred providers</b></h2>
 		    <p>
-        We are preferred providers for HCF, NIB, NIB affiliated health funds, CBHS & Smile.com.au.<br/>
+        We are preferred providers for HCF, NIB, <a href="https://www.nib.com.au/providers/">NIB partnered health funds</a>, CBHS & Smile.com.au.<br/>
         Get reduced and capped dental fees with the following health providers and claim on their following offers:<br/><br/>
         <ul>
           <li><a href="https://www.hcf.com.au/health-agenda/health-care/research-and-insights/dental-insurance-cover " target="_blank" className="provider-link">HCF:</a> dental cover can claim one or two check-up and cleans per calendar year with no gap to pay. 
           </li>
           <li><a href="https://www.nib.com.au/health-information/extras/nib-dental-care-centres" target="_blank" className="provider-link">nib:</a> members with extras cover can access no gap check-up and cleans.
           </li>
-          <li><a href="https://www.cbhs.com.au/health-insurance/extras-cover/top-extras" target="_blank" className="provider-link">CBHS:</a> Members with extras have a set benefit, cover limit. Benefit, cover limit varies on dental service.
+          <li><a href="https://www.cbhs.com.au/health-insurance/extras-cover/top-extras" target="_blank" className="provider-link">CBHS:</a> Members with extras have a set benefit, cover limit on selected dental services.
           </li>
         <li><a href="https://www.smile.com.au/" target="_blank" className="provider-link">smile.com.au:</a> members can at recieve atleast 15% off every treatment. And benefit twice with select health funds.
         </li>
