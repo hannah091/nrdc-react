@@ -165,7 +165,7 @@ stat_minus_1
               </li>
 
               <li>
-                <CustomLink to="/Home">Home</CustomLink>
+                <CustomLink to="/">Home</CustomLink>
               </li>
               <li>
                 <CustomLink to="/Team">Team</CustomLink>
