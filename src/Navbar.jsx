@@ -47,7 +47,7 @@ function Navbar() {
         </div>
 
         <nav id="desktop-nav">
-          <Link to="/Home">
+          <Link to="/">
             <img
               id="navbar_logo"
               src="https://healthengine.com.au/photos/groups/grploc89215-logo-20220901110944.jpg"
@@ -56,8 +56,8 @@ function Navbar() {
           </Link>
 
           <ul className="nav-links">
-            <li>
-              <CustomLink to="/Home">Home</CustomLink>
+            <li className='active'>
+              <CustomLink to="/">Home</CustomLink>
             </li>
             <li>
               <CustomLink to="/Team">Our Team</CustomLink>
