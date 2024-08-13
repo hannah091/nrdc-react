@@ -1,6 +1,17 @@
 .heading-noimg{
-  margin: 3rem 0px 2rem 0px;
- 
+  margin: 2rem 0px  4rem;
+}
+
+.page-margin .heading-noimg p{
+ margin-bottom: 0px;
+}
+
+/*Offers section*/
+.offers-section{
+  border:none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
 }
 
 /*card*/
@@ -8,19 +19,17 @@
 
 
 .card{
-  height: 70vh;
+  height: 60vh;
   max-width: 28rem;
   border-radius: 8px;
   background: white;
   border: 1px solid #e5e7eb;
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); 
-  overflow: hidden; 
-  padding: 16px;
+  overflow: hidden;
 }
 
 .img_box{
-  overflow: hidden; 
-  
+  width: 100%;  
 }
 
 .card img{
@@ -31,29 +40,11 @@
 
 }
 
-.card_content p {
+.card-content {
   padding: 20px;
 }
 
-.card_btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 136px;
-  padding: 8px 12px 0px;
-  background-color: #F5F5F5;
-  border-radius: 34px;
-}
-
-
-
-
-/*
- text-sm font-medium text-center rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 
- */
-
-h4{
+.card-content h4{
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;

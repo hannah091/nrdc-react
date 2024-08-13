@@ -272,6 +272,10 @@ nav ul li .active{
  
 }
 
+.sidebar .close-box:hover{
+  background-color: white;
+}
+
 .close-btn{
   padding: 4px 0px 2px 4px;
   cursor: pointer;

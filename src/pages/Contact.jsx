@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Carousel } from "flowbite-react";
 
 function Contact(){
   
+    // Create a ref for the accessibility section
+    const accessibilityRef = useRef(null);
+  
+    // Function to scroll to the accessibility section
+    const handleScrollToAccessibility = () => {
+      if (accessibilityRef.current) {
+        accessibilityRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
   return (
     <>
+    
     <div className="page-margin">
       <section class="contact">
         <div className="heading">
@@ -37,10 +48,10 @@ function Contact(){
             <div>687 North Road, <br />Carnegie VIC 3163</div>
             </a>
             </div>
-
-            <div className="secondary-btn" id="acc">
+           
+            <button onClick={handleScrollToAccessibility}className="secondary-btn"> 
                Accessibility
-            </div>
+            </button>
           </div>
 
 
@@ -98,6 +109,11 @@ function Contact(){
       </Carousel>
     </div>
   
+<section ref={accessibilityRef}>
+<h4 className="text-2xl font-bold">Accessibility</h4>
+</section>
+
+
 
     </div>
     </>

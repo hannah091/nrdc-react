@@ -14,7 +14,7 @@ function Team(){
   </div> 
 
   <div className="dentist-container">
-    <div className="box">
+    <div className="dentist-imgbox">
       <img src="./assets/rose.png" alt="Dr. Rose Gulnaz Cemiloglu" />
     </div>
 
@@ -36,7 +36,7 @@ function Team(){
  
 
   <div className="dentist-container">
-    <div className="box">
+  <div className="dentist-imgbox">
       <img src="assets/fabiola.jpeg" alt="Dr. Fabiola Menegat" />
     </div>
 
@@ -51,7 +51,7 @@ function Team(){
 
 
   <div className="dentist-container">
-    <div className="box">
+    <div className="dentist-imgbox">
       <img src="assets/Ali_4426.jpg" alt="Dr. Aliakbar Safidroodi" />
     </div>
 

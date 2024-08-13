@@ -110,13 +110,16 @@ stat_minus_1
                     <CustomLink to="/New-pt-form">New Patient Form</CustomLink>
                   </li>
                   <li>
+                    <CustomLink to="/Accreditation">Prevention Infection Control</CustomLink>
+                  </li>
+                  <li>
                     <CustomLink to="/Infection-control">Prevention Infection Control</CustomLink>
                   </li>
                   <li>
                     <CustomLink to="/Cdbs">Children Dental Benefit Scheme</CustomLink>
                   </li>
                   <li>
-                    <CustomLink to="/ VGDS">VGDS/VEDS</CustomLink>
+                    <CustomLink to="/VGDS">VGDS/VEDS</CustomLink>
                   </li>
                   <li>
                     <CustomLink to="/ VA">Veterans' Affair Dental</CustomLink>

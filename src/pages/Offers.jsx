@@ -15,7 +15,7 @@ function Offers(){
           </p>
   </div>
 
-  <section className="offers">
+  <section className="offers-section">
       
 {/*No Offers Avaliable
         <div className="no_offers">
@@ -27,51 +27,35 @@ function Offers(){
     
     <div className="card">
       <div className="img_box">
-        <img src="https://www.thehouseofmouth.com.au/wp-content/uploads/2021/03/5Polashadeguide_thehouseofmouth.jpg" alt="Teeth Whitening" />
+        <img src="https://t4.ftcdn.net/jpg/02/80/63/95/240_F_280639516_kYZCEs3PzKteFuZ0tCfOLKZqm9g9OyVz.jpg" alt="Teeth Cleaning image" />
         </div>  
-      <div className="card_content">
-         <h4>$350 Take Home Whitening Kit</h4>
+      <div className="card-content">
+         <h4>No Gap Check-Up & Clean (or) $200</h4>
 
-         <p>Achieve whiten teeth at the comfort of your home, with two easy appointments. Cost covers the whole procedure and kit.</p>
-          
-        <a href="/whitening_offer.html" className="card_btn"> Read more</a>
-          <br/><br/><br/>
-          <span>19th Nov - 29th Dec 2023</span>
+         <p>No gap check-up and clean for patient insured with health insurance or $200 for patinets with no health insurance. Limited time only.</p>
+        
+          <br/>
+          <span className="valid-date">19th Nov - 29th Dec 2023</span>
       </div>
     </div>  
 
+    <div className="card">
+      <div className="img_box">
+        <img src="https://www.thehouseofmouth.com.au/wp-content/uploads/2021/03/5Polashadeguide_thehouseofmouth.jpg" alt="Teeth Whitening image" />
+        </div>  
+      <div className="card-content">
+         <h4>$350 Take Home Whitening Kit</h4>
+
+         <p>Achieve whiten teeth at the comfort of your home, with two easy appointments. Cost covers the whole procedure and kit.</p>
+        
+          <br/>
+          <span className="valid-date">1st Jul - 31st Jul 2024</span>
+      </div>
+    </div>  
   
 
 </section>
 
-<Card
-      className="max-w-sm"
-      imgAlt="Teeth Whitening"
-      imgSrc="https://www.thehouseofmouth.com.au/wp-content/uploads/2021/03/5Polashadeguide_thehouseofmouth.jpg"
-    >
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
-      </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
-    </Card>
-
-    <div className="grid grid-cols-2 gap-4">
-
-    <Card
-      className="max-w-sm"
-      imgAlt="Meaningful alt text for an image that is not purely decorative"
-      imgSrc="/images/blog/image-1.jpg"
-    >
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
-      </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
-    </Card>
-  </div>
 </div>
     </>
   )
