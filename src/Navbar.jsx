@@ -91,9 +91,6 @@ stat_minus_1
                     <CustomLink to="/Crown">Crown, Veneer & Denture</CustomLink>
                   </li>
                   <li>
-                    <CustomLink to="/Mouthguard">Mouthguard & Splint</CustomLink>
-                  </li>
-                  <li>
                     <CustomLink to="/Implant">Implant</CustomLink>
                   </li>
                 </div>
@@ -107,19 +104,19 @@ stat_minus_1
 </span></button>
                 <div className="dropdown-content">
                   <li>
-                    <CustomLink to="/New-pt-form">New Patient Form</CustomLink>
+                    <CustomLink to="/NewPtForm">New Patient Form</CustomLink>
                   </li>
                   <li>
-                    <CustomLink to="/Accreditation">Prevention Infection Control</CustomLink>
+                    <CustomLink to="/Accreditation">ADA Accreditation</CustomLink>
                   </li>
                   <li>
-                    <CustomLink to="/Infection-control">Prevention Infection Control</CustomLink>
+                    <CustomLink to="/InfectionControl">Prevention Infection Control</CustomLink>
                   </li>
                   <li>
                     <CustomLink to="/Cdbs">Children Dental Benefit Scheme</CustomLink>
                   </li>
                   <li>
-                    <CustomLink to="/VGDS">VGDS/VEDS</CustomLink>
+                    <CustomLink to="/VGDS">VGDS, VEDS & VDS</CustomLink>
                   </li>
                   <li>
                     <CustomLink to="/ VA">Veterans' Affair Dental</CustomLink>
@@ -135,14 +132,14 @@ stat_minus_1
               <CustomLink to="/Contact">Contact Us</CustomLink>
             </li>
 
-            <li>
+            
               <a
                 href="https://apac.dentalhub.online/v1/view/organization/869/index.html#/perspectives/1"
                 className="secondary-btn"
               >
                 Book Appointment
               </a>
-            </li>
+            
           </ul>
         </nav>
 
@@ -164,36 +161,84 @@ stat_minus_1
                 </button>
               </li>
 
-              <li>
-                <CustomLink to="/">Home</CustomLink>
-              </li>
-              <li>
-                <CustomLink to="/Team">Team</CustomLink>
-              </li>
-              <li>
-                <CustomLink to="/Services">Services</CustomLink>
-              </li>
+            <li className='active'>
+              <CustomLink to="/">Home</CustomLink>
+            </li>
+            <li>
+              <CustomLink to="/Team">Our Team</CustomLink>
+            </li>
 
-              <li className="navbar_item">
-                <div className="dropdown">
-                  <button className="dropbtn">Resources</button>
-                  <div className="dropdown-content">
-                    <li>
-                      <CustomLink to="/new-pt-form">New Patient Form</CustomLink>
-                    </li>
-                    <li>
-                      <CustomLink to="/Cdbs">Children Dental Benefit Scheme</CustomLink>
-                    </li>
-                  </div>
+            <li className="navbar_item">
+              <div className="dropdown">
+                <button className="dropbtn">Services<span class="material-symbols-outlined">
+stat_minus_1
+</span></button>
+                <div className="dropdown-content">
+                  <li>
+                    <CustomLink to="/Clean">Scale & Clean</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Mouthguard">Mouthguard & Splint</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Whitening">Teeth Whitening</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Filling">Filling</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Extraction">Extraction</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Root Canal">Root Canal</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Crown">Crown, Veneer & Denture</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Mouthguard">Mouthguard & Splint</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Implant">Implant</CustomLink>
+                  </li>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li>
-                <CustomLink to="/Offers">Offers</CustomLink>
-              </li>
-              <li>
-                <CustomLink to="/Contact">Contact Us</CustomLink>
-              </li>
+            <li className="navbar_item">
+              <div className="dropdown">
+                <button className="dropbtn">Resources<span class="material-symbols-outlined">
+stat_minus_1
+</span></button>
+                <div className="dropdown-content">
+                  <li>
+                    <CustomLink to="/New-pt-form">New Patient Form</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Accreditation">ADA Accreditation</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Infection-control">Prevention Infection Control</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/Cdbs">Children Dental Benefit Scheme</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/VGDS">VGDS, VEDS & VDS</CustomLink>
+                  </li>
+                  <li>
+                    <CustomLink to="/ VA">Veterans' Affair Dental</CustomLink>
+                  </li>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <CustomLink to="/Offers">Offers</CustomLink>
+            </li>
+            <li>
+              <CustomLink to="/Contact">Contact Us</CustomLink>
+            </li>
             </ul>
           )}
 

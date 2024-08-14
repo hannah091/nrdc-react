@@ -1,7 +1,7 @@
 import React from 'react'
 import './Articles.css'
 
-const Clean = () => {
+const Infection = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const Clean = () => {
   )
 }
 
-export default Clean
+export default Infection

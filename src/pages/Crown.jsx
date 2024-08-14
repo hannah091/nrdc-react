@@ -1,7 +1,7 @@
 import React from 'react'
 import './Articles.css'
 
-const Clean = () => {
+const Crown = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const Clean = () => {
   )
 }
 
-export default Clean
+export default Crown

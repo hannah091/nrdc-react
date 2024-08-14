@@ -1,11 +1,16 @@
 /*Resources*/
+.breadcrumb{
+  margin:0rem -2rem;
+}
+
 .breadcrumb > li {
   display: inline;
- 
+  
 }
 
 .breadcrumb li+li::before {
   content: ">";
+  font-weight: 800;
 }
 
 .breadcrumb a {
@@ -17,6 +22,24 @@
    color: grey;
 }
 
+@media only screen and (max-width: 1000px) {
+
+
+  .header-textbox{
+    top: -70%;
+    transform: translateY(70%);
+  }
+
+  .header-image-container{
+    overflow: visible;
+    padding: 0rem 4px  ;
+  }
+
+  .title{
+    padding-bottom: 2rem;
+  }
+}
+
 .header-image-container{
 	border-radius: 16px;
   height: 55vh;
@@ -26,29 +49,49 @@
   background-size: 100% auto;
   overflow: hidden;
   margin-top: 1rem;
+  display: flex; 
+  align-items: center; 
 }
+
 h2{
   font-size: 2rem;;
 }
 
 .header-textbox {
-  max-width: 30%;
-  max-height: 100%;
+  width: 500px;
+  height: 250px;
   border: 1px solid lightgrey;
   border-radius: 14px;
   margin: 4rem 2rem 2rem;
   position: relative;
+  top:0;
   float:left;
   z-index: 998;
-  width: 70rem;
+
   background-color: white;
+  padding: 2rem;
+  
+}
+
+.title{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+
+.article-heading{
+  margin-top: 4rem;
+  font-weight: bold;
+  font-size: large;
+
 }
 
 .header-text{
   padding: 2rem;
 }
 
-section{
+.article-section{
   border-bottom: 1px solid lightgrey;
   padding-bottom: 4rem ;
 }
@@ -59,6 +102,7 @@ a{
 
 
 .ada-container{
+  margin: 2rem 0rem 2rem 1rem;
   display: flex;
   align-items: center;
 }

@@ -110,7 +110,7 @@ nav a{
 
 }
 
-#desktop-nav a:hover{
+#desktop-nav li:hover, #hamburger-nav li:hover{
   /*background-color: var(--grey);
   padding: 12px 8px;
   border-radius: 8px;
@@ -142,7 +142,7 @@ nav ul li .active{
   border-radius: 8px;
   outline: none;
   color: #212121;
-  padding: 14px 4px;
+  padding: 14px 8px;
   background-color: inherit;
   font-family: inherit;
   display: flex;
@@ -163,7 +163,7 @@ nav ul li .active{
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 12px 14px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -199,7 +199,6 @@ nav ul li .active{
   align-items: stretch;
   padding: 0 1rem;
   height: 11vh;
-  border-bottom: 1px solid lightgrey;
   background-color: #ffffff;
   display: none;
 }
@@ -267,7 +266,7 @@ nav ul li .active{
 
 .sidebar li:hover{
   width: 100%;
-  background-color: rgb(237, 237, 237);
+
   border-radius: 8px;
 }
 

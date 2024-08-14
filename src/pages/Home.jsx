@@ -39,7 +39,7 @@ function Home(){
     </section>
 
 
-    <section id="service">
+    <section className="home-section" id="service">
       <h2 className='section-heading'><b>Why choose North Road Dental Clinic?</b></h2>
 
       
@@ -101,7 +101,7 @@ function Home(){
       
     </section>
              
-    <section id="providers-section">
+    <section className="home-section" id="providers-section">
 
       <div className="provider-logos">
             <div className="images-container">

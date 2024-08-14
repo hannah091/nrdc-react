@@ -1,7 +1,8 @@
 import React from 'react'
 import './Articles.css'
 
-const Clean = () => {
+
+const Implant = () => {
   return (
     <div>
       
@@ -9,4 +10,4 @@ const Clean = () => {
   )
 }
 
-export default Clean
+export default Implant
