@@ -3,7 +3,6 @@ import Footer from './Footer.jsx'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import Clean from './pages/Clean'
-
 import Mouthguard from './pages/Mouthguard'
 import Whitening from './pages/Whitening'
 import Filling from './pages/Filling'
@@ -15,8 +14,6 @@ import Accreditation from './pages/Accreditation'
 import Infection from './pages/Infection'
 import VGDS from './pages/VGDS'
 import VA from './pages/VA'
-
-
 import Cdbs from './pages/Cdbs'
 import Offers from './pages/Offers'
 import Contact from './pages/Contact'
@@ -46,9 +43,6 @@ function App() {
           <Route path="/Cdbs" element={<Cdbs />} />
           <Route path="/Offers" element={<Offers />} />
           <Route path="/Contact" element={<Contact />} />
-
-          
-          
         
         </Routes>
   

@@ -145,7 +145,7 @@ stat_minus_1
 
         {/*mobile nav*/}
         <nav id="hamburger-nav">
-          <Link to="/Home">
+          <Link to="/">
             <img
               id="navbar_logo"
               src="https://healthengine.com.au/photos/groups/grploc89215-logo-20220901110944.jpg"
