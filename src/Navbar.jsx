@@ -252,7 +252,7 @@ stat_minus_1
               className="mobile-btn"
             >
               <span className="material-symbols-outlined">event</span>
-              Book Appt
+              Book
             </a>
 
             <button onClick={showSidebar} className="mobile-menu-btn">
