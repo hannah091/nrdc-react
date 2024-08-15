@@ -13,7 +13,7 @@ function Cdbs(){
 
 </ul>
 
-      <div className='header-image-container'>
+      <div className='header-image-container' id="cdbs-page-header">
         <div className="header-textbox">
           <h2 className="title">Children Dental Benefits Schedule (CDBS)</h2>
           <p>Find out what the Children Dental Benefits Schedule (CDBS) is, what it can help you pay for and how to claim your benefit.</p>

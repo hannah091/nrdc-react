@@ -26,15 +26,29 @@
 
 
   .header-textbox{
-    top: -70%;
-    transform: translateY(70%);
+    top: -60%;
+    transform: translateY(60%);
+  }
+
+  .header-textbox p{
+    font-size: 12px;
   }
 
   .header-image-container{
     overflow: visible;
-    padding: 0rem 4px  ;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
   }
 
+  #cdbs-page-header{
+    padding: 0px;
+  }
+
+  .header-image-container h2{
+    padding: 0px;
+  }
   .title{
     padding-bottom: 2rem;
   }
