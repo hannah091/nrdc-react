@@ -32,6 +32,9 @@ function Offers(){
          <h4>No Gap Check-Up & Clean (or) $200</h4>
 
          <p>No gap check-up and clean for patient insured with health insurance or $200 for patinets with no health insurance. Limited time only.</p>
+
+         <a href="https://apac.dentalhub.online/v1/view/organization/869/index.html#/perspectives/1" className="secondary-btn">
+         <span className="material-symbols-outlined">event</span> Book now</a> 
         
           <br/>
           <span className="valid-date">19th Nov - 29th Dec 2023</span>
@@ -46,6 +49,9 @@ function Offers(){
          <h4>$350 Take Home Whitening Kit</h4>
 
          <p>Achieve whiten teeth at the comfort of your home, with two easy appointments. Cost covers the whole procedure and kit.</p>
+
+         <a href="https://apac.dentalhub.online/v1/view/organization/869/index.html#/perspectives/1" className="secondary-btn">
+         <span className="material-symbols-outlined">event</span> Book now</a> 
         
           <br/>
           <span className="valid-date">1st Jul - 31st Jul 2024</span>

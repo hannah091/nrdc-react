@@ -1,19 +1,20 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath, useLocation } from 'react-router-dom';
+import './mediaqueries.css'
+
 
 
 function Home(){
   
   return (
     <>
-<div className="page-margin">
+<div className="wrapper">
     
-    <section className="hero" id="hero">
-      <div className="hero_container">
-
+    <section className="hero-container">
+      
         <div className="hero-content">
               <h1><b>Keeping Your Family’s Smiles Bright & Healthy</b></h1>
-              <p> Caring and comprehensive dental care for the entire family in Carngie, Ormond, McKinnon, Bentleigh East and surrounding suburbs.</p>
+              <p> Caring and comprehensive dental care for the entire family in Carnegie, Ormond, McKinnon, Bentleigh East and surrounding suburbs.</p>
               <p> Book an appointment today.</p>
               <br/>
 
@@ -35,7 +36,7 @@ function Home(){
 
       
 
-      </div>
+    
     </section>
 
 
@@ -106,19 +107,19 @@ function Home(){
       <div className="provider-logos">
             <div className="images-container">
 
-              <a href="https://www.hcf.com.au/health-agenda/health-care/research-and-insights/dental-insurance-cover" title="Go to HCF dental cover webpage" target="_blank">
+              <a href="https://www.hcf.com.au/health-agenda/health-care/research-and-insights/dental-insurance-cover" title="Go to HCF dental cover webpage" target="_blank" className='logo'>
               <div className="image-container">
                 <img src="https://www.erinafair.com.au/contentassets/14ad31f422a044b08a308b4c114fe5ec/square-logos-6-1.png?width=300&height=400&upscale=false&mode=max&quality=80" alt="HCF" width="210px" />
               </div>
               </a>
 
-              <a href="https://www.nib.com.au/health-information/extras/nib-dental-care-centres" title="Go to nib's dental extras webpage" target="_blank">
+              <a href="https://www.nib.com.au/health-information/extras/nib-dental-care-centres" title="Go to nib's dental extras webpage" target="_blank" className='logo'>
               <div className="image-container">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCS_U6OYE7ty3-pExmJS0oIprq_iFS9Cg20HpK4Fw3DM5TBElXYaJeplpgJQv6J8-PnI&usqp=CAU" alt="NIB" width="200px"  />
               </div>
               </a>
 
-              <a href="https://www.cbhs.com.au/health-insurance/extras-cover/top-extras" title="Go to CBHS' dental extras webpage" target="_blank">
+              <a href="https://www.cbhs.com.au/health-insurance/extras-cover/top-extras" title="Go to CBHS' dental extras webpage" target="_blank" className='logo'>
               <div className="image-container">
                 <img src="https://membershealth.com.au/wp-content/uploads/2019/09/CBHS.svg" alt="CBHS" width="250px" />
               </div>
@@ -153,21 +154,19 @@ function Home(){
         * We also price match Bupa & Medibank, but we are not the preferred provider.
         </p>
       </div>
-
-      
     </section>
 
-        <section className="cdbs">
-          <div className="cdbs-text">
-            <h2 className='section-heading'><b>Child Dental Benefits Schedule (CDBS)</b></h2>
-            <p>Child Dental Benefits Schedule (CDBS) covers part or the full cost of some general dental services for children if eligible.</p>
+      <section className="cdbs">
+        <div className="cdbs-text">
+          <h2 className='section-heading'><b>Child Dental Benefits Schedule (CDBS)</b></h2>
+          <p>Child Dental Benefits Schedule (CDBS) covers part or the full cost of some general dental services for children if eligible.</p>
 
-            <p>Eligible child must be all of the following:</p>
-            <ul>
-              <li>0 to 17 years old for at least one day that calendar year</li>
-              <li>Eligible for Medicare</li>
-              <li>Receive an eligible Australian government payment for at least once a year, or have a parent, career or guardian getting a payment for at least once a year.</li>
-            </ul>
+          <p>Eligible child must be all of the following:</p>
+          <ul>
+            <li>0 to 17 years old for at least one day that calendar year</li>
+            <li>Eligible for Medicare</li>
+            <li>Receive an eligible Australian government payment for at least once a year, or have a parent, career or guardian getting a payment for at least once a year.</li>
+          </ul>
             
             <div className = "btn-container">
 

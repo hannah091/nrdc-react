@@ -75,7 +75,7 @@ header .header_contact ul li .material-symbols-outlined {
   align-items: stretch;
   padding: 0 1.2rem;
   height: 10vh;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #E8E8E8;
   background-color: #ffffff;
 }
 
@@ -206,6 +206,7 @@ nav ul li .active{
   height: 11vh;
   background-color: #ffffff;
   display: none;
+  border-bottom: 2px solid var(--grey);
 }
 
 .mobilebtn-container{

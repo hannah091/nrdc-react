@@ -1,5 +1,6 @@
 import React from 'react'
 import './Articles.css'
+import { Accordion } from "flowbite-react";
 
 const Filling = () => {
   return (
@@ -31,76 +32,74 @@ const Filling = () => {
         <br/>
 
 
-        <div id="accordion-collapse" data-accordion="collapse">
-  <h2 id="accordion-collapse-heading-1">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-      <span>Amalgam</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-     
-      <p class="text-gray-500 dark:text-gray-400">Dental amalgam is a silver-coloured filling material. It is made of mercury, silver, copper, zinc and tin. Dentists have used it to fix teeth for over 150 years. Dentists and scientists have done a lot of research on dental amalgam.
-      <br/><br/>
-      Amalgam was commonly used by dentists in the 1990s. These days it is not commonly used. Some dentists do not use it at all.
-      <br/><br/>
-      Amalgam is strong and can last for a long time. But dentists need to cut away more tooth structure to fix your tooth using an amalgam filling . This is because the amalgam is held in place by the shape of the cavity that is cut into the tooth. Amalgam does not stick to the tooth surface like white filling materials do.
-      <br/><br/>
-      This filling material is silver in colour and can turn darker over time.
-      <br/><br/>People often ask
-      <a href="https://www.teeth.org.au/should-i-remove-my-amalgam-fillings" class="text-blue-600 dark:text-blue-500 hover:underline"> if they should have their amalgam fillings removed.</a></p>
-    </div>
-    <div>
-      <img src="https://www.teeth.org.au/media/f4hju5kl/amalgam-circle.jpg?rmode=max&width=500&height=333" alt="Amalgam Filling"></img>
-    </div>
-  </div>
-  <h2 id="accordion-collapse-heading-2">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-      <span>Composite resin</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Composite resin is a tooth-coloured or white filling material. Dentists can use it for fillings in both the front and back teeth. Dentists often use it:</p>
-
-      <ul>
-        <li>to fix broken teeth and teeth damaged by tooth decay</li>
-        <li>for fissure sealants</li>
-        <li> for cosmetic dental treatments, such as veneers.</li>
-      </ul>
-      <br/><br/>
-
-      <p class="text-gray-500 dark:text-gray-400" class="text-blue-600 dark:text-blue-500 hover:underline">Dentists glue composite fillings to the surface of the tooth. This is called bonding. Because composite resin is glued to the tooth’s surface, dentists don’t need to cut away as much tooth structure to fix teeth with composite fillings.  
-      <br/><br/>
-      The colour of the material can be matched to the colour of the tooth being fixed. People may not be able to see the filling if the colour is matched to your tooth well. </p>
-    </div>
-
-    <div>
-      <img src="https://t3.ftcdn.net/jpg/00/52/84/36/240_F_52843641_64QE2MA1jqWCQoUxOsUjoQ5BelXbM6oI.jpg" alt="Composite Filling"/>
-    </div>
-  </div>
-  <h2 id="accordion-collapse-heading-3">
-    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-      <span>Glass-ionomer cement</span>
-      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-      </svg>
-    </button>
-  </h2>
-  <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-      <p class="mb-2 text-gray-500 dark:text-gray-400">Glass-ionomer cement (GIC) is also a white or tooth-coloured filling material. It is not as strong as composite resin. Fluoride is an ingredient in this dental filling material. It has many uses, but common uses include fissure sealants and temporary fillings.</p>
-
-    </div>
-  </div>
-</div>
-
+        <Accordion collapseAll>
+      <Accordion.Panel>
+        <Accordion.Title>What is Flowbite?</Accordion.Title>
+        <Accordion.Content>
+          <p className="mb-2 text-gray-500 dark:text-gray-400">
+            Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
+            dropdowns, modals, navbars, and more.
+          </p>
+          <p className="text-gray-500 dark:text-gray-400">
+            Check out this guide to learn how to&nbsp;
+            <a
+              href="https://flowbite.com/docs/getting-started/introduction/"
+              className="text-cyan-600 hover:underline dark:text-cyan-500"
+            >
+              get started&nbsp;
+            </a>
+            and start developing websites even faster with components on top of Tailwind CSS.
+          </p>
+        </Accordion.Content>
+      </Accordion.Panel>
+      <Accordion.Panel>
+        <Accordion.Title>Is there a Figma file available?</Accordion.Title>
+        <Accordion.Content>
+          <p className="mb-2 text-gray-500 dark:text-gray-400">
+            Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
+            has a design equivalent in our Figma file.
+          </p>
+          <p className="text-gray-500 dark:text-gray-400">
+            Check out the
+            <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
+              Figma design system
+            </a>
+            based on the utility classes from Tailwind CSS and components from Flowbite.
+          </p>
+        </Accordion.Content>
+      </Accordion.Panel>
+      <Accordion.Panel>
+        <Accordion.Title>What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+        <Accordion.Content>
+          <p className="mb-2 text-gray-500 dark:text-gray-400">
+            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
+            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
+            components, whereas Tailwind UI offers sections of pages.
+          </p>
+          <p className="mb-2 text-gray-500 dark:text-gray-400">
+            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
+            technical reason stopping you from using the best of two worlds.
+          </p>
+          <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+          <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
+            <li>
+              <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
+                Flowbite Pro
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://tailwindui.com/"
+                rel="nofollow"
+                className="text-cyan-600 hover:underline dark:text-cyan-500"
+              >
+                Tailwind UI
+              </a>
+            </li>
+          </ul>
+        </Accordion.Content>
+      </Accordion.Panel>
+    </Accordion>
 
       </section>
 

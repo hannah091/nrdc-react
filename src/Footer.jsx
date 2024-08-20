@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer>
         <section className="footer">
-          <div className="footer-box">
+          <div className="footer-box" id="quicklinks">
             <h2>Quick Links</h2>
             <ul>
               <li><CustomLink to="/Team"> Our Team</CustomLink></li>
@@ -17,7 +17,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="footer-box">
+          <div className="footer-box" id="services">
             <h2>Services</h2>
             <ul>
               <li><CustomLink to="/ScaleClean">Scale & Clean</CustomLink></li>
@@ -31,7 +31,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="footer-box">
+          <div className="footer-box" id="opening-hours">
             <h2>Opening Hours</h2>
             <div className="inner-hrs-box">
   <div className="days" id="footer-font">
@@ -48,7 +48,7 @@ function Footer() {
     <p>9am - 6pm</p>
     <p>9am - 5pm</p>
     <p>9am - 6pm</p>
-    <p>Closed</p>
+    <p>9am - 5pm</p>
     <p>9am - 6pm</p>
     <p>By Appointment Only</p>
     <p>Closed</p>
@@ -80,7 +80,7 @@ function Footer() {
 
           </div>
 
-          <div className="footer-box">
+          <div className="footer-box" id="map">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12592.292952883494!2d145.0542546!3d-37.9053508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66bd6b7de0605%3A0x5b7587b8efa5d9e8!2sNorth%20Road%20Dental%20Clinic!5e0!3m2!1sen!2sau!4v1709376556364!5m2!1sen!2sau"
               width="100%"

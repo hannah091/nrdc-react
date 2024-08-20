@@ -15,11 +15,21 @@
 }
 
 /*card*/
+@media (width <= 1200px) {
+  .offers-section{
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem ;
+  }
+}
 
-
+@media (width <= 600px) {
+  .offers-section{
+    grid-template-columns: 1fr;
+  }
+}
 
 .card{
-  height: 60vh;
+  height: 100%;
   max-width: 28rem;
   border-radius: 8px;
   background: white;

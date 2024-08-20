@@ -1,0 +1,73 @@
+/*mobile*/
+
+@media only screen and (max-width: 640px) {
+
+  .hero-container{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+ .heroimage-container{
+  width: 200px;
+  height: 200px;
+ }
+  
+
+ .section-heading{
+  font-size: 14px;
+ }
+
+ #provider-heading{
+  padding-top: 2rem;
+ }
+
+  #providers-section {
+    padding: 1.5rem 0 0 0;
+    flex-direction: column-reverse;
+  }
+
+  .provider-logos{
+  padding: 4rem 0rem;}
+
+  #providers-section .content {
+    margin-bottom: 1rem;
+  }
+
+  #providers-section .content h2 {
+    padding-bottom: .625rem;
+    line-height: 1.3;
+    font-weight: bold;
+  }
+
+
+
+  #providers-section .images-container {
+    margin-top: -5em;
+  }
+
+  #providers-section .extra {
+    display: none;
+  }
+
+}
+
+
+/*tablet*/
+@media screen and (max-width: 1200px) {
+  .service-card h4{
+    height: 3rem;
+  }
+
+  .service-card p{
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #service{
+  background-color: purple;
+  }
+  .service-container{
+  grid-template-columns: 1fr 1fr;}
+}
