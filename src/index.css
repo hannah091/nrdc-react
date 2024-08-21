@@ -472,6 +472,10 @@ width:18rem;
 }
 
 @media (width <= 600px) {
+ .wrapper, .page-margin{
+  margin: 10px 8px;
+ }
+
   .contact-container{
     grid-template-columns: 1fr;
   }
